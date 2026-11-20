@@ -1,8 +1,13 @@
+# robots.txt для сайта Ямбирнского филиала
+# Этот файл должен лежать в КОРНЕ домена:
+# https://sergievposadprimoauxiliumsta-crypto.github.io/robots.txt
+
 User-agent: *
 Allow: /
 
 User-agent: Yandex
 Allow: /
-Clean-param: topic&pub&utm_source&utm_medium&utm_campaign&utm_content&utm_term
+# Просим Яндекс не считать дублями страницы с UTM-метками
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term
 
 Sitemap: https://sergievposadprimoauxiliumsta-crypto.github.io/yambirno-school/sitemap.xml

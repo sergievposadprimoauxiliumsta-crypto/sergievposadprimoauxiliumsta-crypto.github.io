@@ -3,6 +3,7 @@ Allow: /
 
 User-agent: Yandex
 Allow: /
-Clean-param: topic&utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid /yambirno-school/
+Clean-param: topic&pub /yambirno-school/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&utm_id&yclid&ymclid&ysclid&etext&fbclid&gclid&from /yambirno-school/
 
 Sitemap: https://sergievposadprimoauxiliumsta-crypto.github.io/yambirno-school/sitemap.xml

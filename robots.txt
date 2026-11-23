@@ -1,8 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /yambirno-school/data/
+Disallow: /yambirno-school/sw.js
 
 User-agent: Yandex
 Allow: /
+Disallow: /yambirno-school/data/
+Disallow: /yambirno-school/sw.js
 Clean-param: topic&pub /yambirno-school/
 Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&utm_id&yclid&ymclid&ysclid&etext&fbclid&gclid&from /yambirno-school/
 

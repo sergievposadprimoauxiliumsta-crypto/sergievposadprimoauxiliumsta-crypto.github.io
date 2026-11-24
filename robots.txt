@@ -1,13 +1,17 @@
 User-agent: *
 Allow: /
 Disallow: /yambirno-school/data/
+Allow: /yambirno-school/data/school-snapshot.json
+Allow: /yambirno-school/data/media/
 Disallow: /yambirno-school/sw.js
 
 User-agent: Yandex
 Allow: /
 Disallow: /yambirno-school/data/
+Allow: /yambirno-school/data/school-snapshot.json
+Allow: /yambirno-school/data/media/
 Disallow: /yambirno-school/sw.js
-Clean-param: topic&pub /yambirno-school/
+Clean-param: topic&pub&post /yambirno-school/
 Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&utm_id&yclid&ymclid&ysclid&etext&fbclid&gclid&from /yambirno-school/
 
 Sitemap: https://sergievposadprimoauxiliumsta-crypto.github.io/yambirno-school/sitemap.xml
